@@ -30,8 +30,8 @@ export default function Portfolio() {
                 <div className="grid grid-cols-12 phone:justify-center gap-11">
                     {portImg.map(img =>
                         <div className="cursor-pointer phone:col-span-12 lg:col-span-4 md:col-span-6  sm:col-span-12 relative group">
-                            <img className='rounded-lg w-full phone:w-[80%] phone:mx-auto' src={img} alt="" />
-                            <div onClick={function () { showedImg(img) }} className="imgHov phone:w-[80%] phone:mx-auto absolute  flex text-9xl rounded-lg group-hover:bg-[#1ABC9C]  justify-center items-center inset-0 transition-all duration-300">
+                            <img className='rounded-lg sm:w-full phone:w-[80%] phone:mx-auto' src={img} alt="" />
+                            <div onClick={function () { showedImg(img) }} className="imgHov sm:w-full phone:w-[80%] phone:mx-auto absolute  flex text-9xl rounded-lg group-hover:bg-[#1ABC9C]  justify-center items-center inset-0 transition-all duration-300">
                                 <i className="fa-solid fa-plus text-white opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                             </div>
                         </div>
