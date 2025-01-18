@@ -6,7 +6,7 @@ export default function Contact() {
 
 
     return (
-        <section className='pt-32 '>
+        <section className='pt-32 sm:py-32  phone:py-[30%]  '>
             <div className=" text-center text-[#2C3E50]">
                 <h1 className=' uppercase font-bold text-4xl'>Contact Component</h1>
                 <div className='star star-bg py-2 relative'>

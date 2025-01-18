@@ -4,12 +4,12 @@ export default function Footer() {
     return (
         <footer className=' text-white text-center'>
             <div className="py-20 bg-[#2C3E50] text-white grid  grid-cols-3 md:grid-cols-12  text-center">
-                <div className="lg:col-span-4 sm:my-5 sm:col-span-12 ">
+                <div className="lg:col-span-4 phone:col-span-12 phone:my-5 sm:my-5 sm:col-span-12 ">
                     <h3 className='font-semibold text-3xl my-2'>LOCATION</h3>
                     <p className='my-3'>2215 John Daniel Drive</p>
                     <p>Clark, MO 65243</p>
                 </div>
-                <div className="lg:col-span-4 sm:my-5 sm:col-span-12 ">
+                <div className="lg:col-span-4 phone:col-span-12 phone:my-5 sm:my-5 sm:col-span-12 ">
                     <h3 className='font-semibold text-2xl my-2'>AROUND THE WEB</h3>
                     <div className="footerList">
                         <ul className='flex justify-center items-center gap-2 text-lg'>
@@ -20,7 +20,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="lg:col-span-4 sm:my-5 sm:col-span-12 ">
+                <div className="lg:col-span-4 phone:col-span-12  phone:my-5 sm:my-5 sm:col-span-12 ">
                     <h3 className='font-semibold text-3xl my-2'>ABOUT FREELANCER</h3>
                     <p className='my-2'>Freelance is a free to use, licensed Bootstrap theme created <br /> by Route</p>
 

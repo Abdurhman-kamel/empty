@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'phone': '200px', // Custom breakpoint for screens with a min-width of 200px
+      },
+    },
   },
   plugins: [],
 }

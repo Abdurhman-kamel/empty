@@ -9,12 +9,12 @@ export default function Navbar() {
     })
     return (
         <nav className={`bg-[#2C3E50] text-white fixed w-full z-50 ${scrollMove} transition-all duration-500 `}>
-            <div className="container w-10/12 mx-auto flex justify-between items-center ">
+            <div className="container w-10/12  mx-auto sm:flex justify-between items-center ">
                 <div className="brand ">
-                    <Link className='text-3xl uppercase font-bold' to={'/home'}>start framework</Link>
+                    <Link className='phone:text-xl sm:text-3xl phone:block uppercase font-bold phone:text-center' to={'/home'}>start framework</Link>
                 </div>
-                <div className="navLink  ">
-                    <ul className='flex gap-10 font-bold text-base uppercase'>
+                <div className="navLink ">
+                    <ul className='flex gap-10 phone:justify-center phone:my-5 font-bold text-base uppercase'>
                         <li><NavLink to="/About">About</NavLink></li>
                         <li><NavLink to="/Portfolio">portfolio</NavLink></li>
                         <li><NavLink to="/Contact">Contact</NavLink></li>
