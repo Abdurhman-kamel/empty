@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <section className='pt-32 sm:py-32  phone:py-[30%]  '>
             <div className="portfolio text-center text-[#2C3E50]">
-                <h1 className=' uppercase font-bold text-4xl'>Contact Component</h1>
+                <h1 className=' uppercase font-bold phone:mt-10 sm:mt-5 phone:text-xl sm:text-4xl'>Contact Component</h1>
                 <div className='star  py-2 relative'>
                     <i className="fa-solid fa-star"></i>
                 </div>

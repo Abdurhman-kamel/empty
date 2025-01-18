@@ -20,7 +20,7 @@ export default function Portfolio() {
     return (
         <section className='phone:py-[30%] sm:py-32 portfolio'>
             <div className=" text-center text-[#2C3E50]">
-                <h1 className=' uppercase font-bold text-4xl'>Portfolio Component</h1>
+                <h1 className=' uppercase font-bold phone:text-xl phone:mt-10 sm:mt-5 sm:text-4xl'>Portfolio Component</h1>
                 <div className='star star-bg py-2 relative'>
                     <i className="fa-solid fa-star"></i>
                 </div>
